@@ -1,0 +1,77 @@
+Nathan Wagstaff
+Task 2 program
+
+Requirements specification
+
+This program will gather the employees name, weekly hours, hourly pay, federal taxes, and state taxes
+It will calculate the weekly net pay and gross pay and how much money is withheld by taxes.
+
+System Analysis
+
+I will use these formulas
+grossPay = hourlyPay * weeklyHours
+federalW = grossPay * federalTax
+stateW = grossPay * stateTax
+totalDeduction = federalW + stateW
+netPay = grossPay - totalDeduction
+federalTax = federalTax * 100
+stateTax = stateTax * 100
+
+System Design
+
+Input statements for name, weekly hours, pay rate, federal tax, and state tax
+calculate using the formulas
+print the hours, pay rate, gross pay, deductions, and net pay using formatting.
+
+Testing
+Test 1
+Inputs
+Nathan Wagstaff
+40
+20
+.11
+.17
+
+Outputs expected
+40
+20
+800
+88
+136
+224
+576
+Outputs received
+40
+20
+800
+88
+136
+224
+576
+
+Test 2
+
+Inputs
+Chad Mano
+40
+12.75
+.11
+.07
+
+Outputs expected
+40
+12.75
+510.00
+56.10
+35.70
+91.80
+418.20
+
+Outputs Received
+40
+12.75
+510.00
+56.10
+35.70
+91.80
+418.20

@@ -1,0 +1,37 @@
+Nathan Wagstaff
+task 1 plan
+
+Requirements Specification
+
+The program wil take the dimensions for a regular polygon from the user.
+the program will print the area of the polygon for the user.
+
+System analysis
+
+I will use this formula (numberOfSides * pow(lengthOfSides, 2))/ (4 * tan(pi/ numberOfSides))
+
+System Design
+
+define the variables numberOfSides and LengthOfSides using input
+input pow() tan() and pi
+run through (numberOfSides * pow(lengthOfSides, 2))/ (4 * tan(pi/ numberOfSides)) as variable answer
+using the round function calculate to 5 decimals
+print answer
+
+Testing
+
+Test case 1
+input
+number of sides of 6
+length of 2.5
+
+expected output 16.23798
+actual output 16.23798
+
+Test case 2
+input
+number of sides of 20
+length of 12.123
+
+expected output 4,639.56967
+actual output 4,639.56967
